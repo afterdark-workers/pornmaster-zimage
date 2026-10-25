@@ -1,6 +1,6 @@
 # PornMaster Z-Image Turbo — RunPod Serverless worker
 
-A ready-to-build [RunPod Serverless](https://runpod.io?ref=qpguwapm) worker for **PornMaster Z-Image Turbo** v3.5, an adult Z-Image Turbo fine-tune. Based on the official [`runpod/worker-comfyui`](https://github.com/runpod-workers/worker-comfyui).
+A ready-to-build [RunPod Serverless](https://runpod.io?ref=qpguwapm) worker for **[PornMaster Z-Image Turbo](https://civitai.com/models/2270401?modelVersionId=2903129)** v3.5, an adult Z-Image Turbo fine-tune. Based on the official [`runpod/worker-comfyui`](https://github.com/runpod-workers/worker-comfyui).
 
 Models are baked into the image, so a cold start does not re-download anything.
 
@@ -10,9 +10,9 @@ Models are baked into the image, so a cold start does not re-download anything.
 
 | File | Source | Size |
 |---|---|---|
-| `diffusion_models/pornmaster_zit_v35_bf16.safetensors` | Civitai 2270401 / version 2903129 | 11.5 GB |
-| `text_encoders/qwen_3_4b_fp8_mixed.safetensors` | Comfy-Org/Z-Image-Turbo (Apache 2.0) | 5.6 GB |
-| `vae/ae.safetensors` | Comfy-Org/Z-Image-Turbo | 0.3 GB |
+| `diffusion_models/pornmaster_zit_v35_bf16.safetensors` | [Civitai 2270401 / version 2903129](https://civitai.com/models/2270401?modelVersionId=2903129) | 11.5 GB |
+| `text_encoders/qwen_3_4b_fp8_mixed.safetensors` | [Comfy-Org/Z-Image-Turbo](https://huggingface.co/Comfy-Org/Z-Image-Turbo) (Apache 2.0) | 5.6 GB |
+| `vae/ae.safetensors` | [Comfy-Org/Z-Image-Turbo](https://huggingface.co/Comfy-Org/Z-Image-Turbo) | 0.3 GB |
 
 Just the model as its creator released it — no LoRAs, no extra nodes. All files are checked by SHA-256 at build time. ComfyUI is upgraded to 0.39.0.
 
